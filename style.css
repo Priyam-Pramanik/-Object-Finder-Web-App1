@@ -1,0 +1,62 @@
+body{
+    background-size: cover;
+}
+
+#heading{
+font-size: 100px;
+color: azure;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+font-weight: bold;
+
+}
+
+.info{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    transition: 0.7s;
+    box-shadow: 10px 10px 10px rgba(30, 24, 205, 0.825);
+}
+#text_box{
+    font-size: 30px;
+    padding-left: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#start_button{
+    font-size: 30px;
+    transition: 0.7s;
+    box-shadow: 10px 10px 10px rgba(8, 118, 41, 0.88);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#status{
+    font-size: 35px;
+    transition: 0.7s;
+    box-shadow: 10px 10px 10px maroon;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:red;
+    color: white;
+}
+
+#status:hover{
+    background-color: yellow;
+    color: black;
+    box-shadow: 10px 10px 10px rgb(154, 139, 8);
+}
+#model_status{
+    background-color:blueviolet;
+    color: white;
+    font-size: 35px;
+    transition: 0.7s;
+    box-shadow: 10px 10px 10px blue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#model_status:hover{
+    background-color: pink;
+    color: black;
+    box-shadow: 10px 10px 10px rgb(191, 10, 155);
+}
+canvas{
+    background-color: white;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 20px;
+}
